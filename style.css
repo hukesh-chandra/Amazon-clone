@@ -4,7 +4,7 @@
     border: border-box;
 }
 /* navigation bar start */
-.navbar{
+.navbar {
     height: 60px;
     background-color: #0f1111;
     color: white;
@@ -12,48 +12,64 @@
     align-items: center;
     justify-content: space-evenly;
 }
-.border{
+
+.border {
+    display: flex;
+    justify-content: center;  
+    align-items: center;  
+    height: 50px;
+    padding: 0 10px;  
     border: 2px solid transparent;
 }
-.border:hover{
+
+.border:hover {
     border: 1.5px solid white;
 }
 
-.nav-logo{
+.nav-logo {
     height: 50px;
     width: 100px;
 }
-.logo{
+
+.logo {
     background-image: url(source/amazon_logo.png);
     background-size: cover;
     height: 50px;
     width: 100%;
 }
 
-.add-first{
+.nav-address{
+    display: block;
+}
+.add-first {
     color: #cccccc;
     font-size: 0.85rem;
     margin-left: 15px;
 }
-.add-second{
+
+.add-second {
     font-size: 1rem;
     margin-left: 3px;
 }
-.add-icon{
+
+.add-icon {
     display: flex;
     align-items: center;
 }
-.nav-search{
+
+.nav-search {
     display: flex;
     justify-content: space-evenly;
-    width: 620px;
+    width: 800px;
     height: 40px;
     border-radius: 4px;
 }
-.nav-search:hover{
+
+.nav-search:hover {
     border: 2px solid orange;
 }
-.search-select{
+
+.search-select {
     background-color: #f3f3f3;
     width: 50px;
     text-align: center;
@@ -61,12 +77,14 @@
     border-bottom-left-radius: 4px;
     border: none;
 }
-.search-input{
+
+.search-input {
     width: 100%;
     font-size: 1rem;
     border: none;
 }
-.search-icon{
+
+.search-icon {
     width: 45px;
     display: flex;
     justify-content: center;
@@ -77,24 +95,34 @@
     border-bottom-right-radius: 4px;
 }
 
-span{
-    font-size: 0.7 rem;
-
-}
-.nav-second{
-    font-size: 0.85 rem;
-    font-weight: 700;
+.language-select-option {
+    border: none;
 }
 
-.nav-cart i{
-    font-size: 30px;
+span {
+    font-size: 0.7rem;
 }
-.nav-cart{
+
+.nav-second {
     font-size: 0.85rem;
     font-weight: 700;
 }
 
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* Navigation Bar end */
+
+
+
+
 /* Panel */
+
 .panel{
     height: 40px;
     display: flex;
