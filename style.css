@@ -63,10 +63,11 @@
     width: 800px;
     height: 40px;
     border-radius: 4px;
+    border: 0.12rem solid transparent;
 }
 
 .nav-search:hover {
-    border: 2px solid orange;
+    border: 0.12rem solid orange;
 }
 
 .search-select {
@@ -162,12 +163,14 @@ span {
 
 /* Hero secction */
 .hero-section {
-    background-image: url(source/hero_image.jpg);
-    height: 350px;
+    background: url('source/hero_image.jpg') no-repeat center center, 
+    linear-gradient(to top, #e2e7e6, transparent 50%);
+    background-blend-mode: overlay;
+    height: 700px;
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
 }
 
 .hero-message {
@@ -187,6 +190,7 @@ span {
 }
 
 .shop-section {
+  
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
