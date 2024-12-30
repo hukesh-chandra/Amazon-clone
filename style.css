@@ -229,6 +229,41 @@ span {
     color: #007185;
 }
 
+.scrolling-shop{
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px;
+}
+
+.scrolling-shop::-webkit-scrollbar {
+    height: 8px;
+}
+
+.scrolling-shop::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 4px;
+}
+
+.scrolling-shop::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.scroll-shop-box{
+    display: inline-block;
+    min-width: 200px;
+    margin: 0 10px;
+    padding: 20px;
+    background-color: whitesmoke;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 18px;
+    flex-shrink: 0;
+    height: 400px;
+    width: 23%;
+}
+
 footer {
     margin-top: 15px;
 }
