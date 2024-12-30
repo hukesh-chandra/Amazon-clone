@@ -296,6 +296,16 @@ ul a:hover{
     padding-top: 25px;
 }
 
+.pages a{
+    margin-inline: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.pages a:hover{
+    text-decoration: underline;
+}
+
 .copyright {
     padding-top: 5px;
 }
